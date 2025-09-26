@@ -8,6 +8,8 @@ version = "1.0.0"
 
 java {
     withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 val outputDir = layout.projectDirectory.dir("../jars")
@@ -52,7 +54,7 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("mavenJava") {
-            from(components["java"])
+            from(components["shadow"])
 
             groupId = group.toString()
             artifactId = rootProject.name.toString()
