@@ -56,7 +56,7 @@ public class ExamplePlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         this.knockbackHandler = new KnockbackHandler();
-        //this.nameTagHandler.registerHook(new CustomHook()); Register your own hook before init call.
+        //this.knockbackHandler.registerHook(new CustomHook()); Register your own hook before init call.
         this.knockbackHandler.init();
 
         getServer().getPluginManager().registerEvents(this, this);
