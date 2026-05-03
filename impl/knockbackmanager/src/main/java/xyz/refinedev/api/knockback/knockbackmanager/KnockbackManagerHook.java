@@ -15,9 +15,9 @@ import xyz.refinedev.api.knockback.KnockbackHook;
  * Copyright © 2025, All Rights Reserved.<br>
  * </p>
  *
- * @author Drizzy
+ * @author KLxier (Refinedev.org: thehale_dc)
  * @version KnockbackAPI
- * @since 9/26/2025
+ * @since 2026/5/3
  */
 public class KnockbackManagerHook implements KnockbackHook {
 

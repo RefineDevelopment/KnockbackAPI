@@ -7,7 +7,7 @@ Please note that these spigots are supported through public APIs.
 - ImanitySpigot
 - AzuriteSpigot
 - FoxSpigot
-- KnockbackManager (Plugin) - Uses me.dw1e.kbm.KnockbackManager API
+- KnockbackManager (Plugin)
 
 ## Installation
 
