@@ -10,6 +10,7 @@ import xyz.refinedev.api.knockback.carbon.CarbonHook;
 import xyz.refinedev.api.knockback.carbon.CarbonLegacyHook;
 import xyz.refinedev.api.knockback.foxspigot.FoxSpigotHook;
 import xyz.refinedev.api.knockback.imanity.ImanityHook;
+import xyz.refinedev.api.knockback.knockbackmanager.KnockbackManagerHook;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -37,6 +38,7 @@ public class KnockbackHandler implements IKnockbackHandler {
         this.registerHook(new ImanityHook());
         this.registerHook(new AzuriteHook());
         this.registerHook(new FoxSpigotHook());
+        this.registerHook(new KnockbackManagerHook());
 
         this.hook = this.detect();
         if (this.hook == null) {

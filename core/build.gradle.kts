@@ -48,6 +48,7 @@ dependencies {
     implementation(project(":impl:carbon-legacy"))
     implementation(project(":impl:imanity"))
     implementation(project(":impl:foxspigot"))
+    implementation(project(":impl:knockbackmanager"))
     implementation(project(":impl:azurite"))
 }
 

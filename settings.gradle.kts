@@ -18,3 +18,5 @@ include("impl:carbon")
 findProject(":impl:carbon")?.name = "carbon"
 include("impl:carbon-legacy")
 findProject(":impl:carbon-legacy")?.name = "carbon-legacy"
+include("impl:knockbackmanager")
+findProject(":impl:knockbackmanager")?.name = "knockbackmanager"
